@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #010001;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menuItem {
+    font-size: 18px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.link {
+    font-size: 16px;
+    color: #808080;
+}
+
+.falcon-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.falcon-title {
+    margin-top: 100px;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.falcon-description {
+    font-size: 16px;
+    padding-top: 30px;
+    line-height: 2;
+}
+
+.spaceX-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.overview-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 1000px;
+    margin-top: 500px;
+
+}
+.Overview-title{
+    font-size: 24px;
+}
+
+.overview-details{
+    display: flex;
+    gap: 80px;
+    margin-top: 40px;
+
+}
+.subtitle{
+    margin-top: 15px;
+
+}
+.overview-desc{
+    margin-top: 40px;
+    width: 400px;
+}
+
+/* styles.css */
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin: 40px;
+}
+
+
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-link {
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.privacy-policy {
+    margin: 0 10px;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.contact-info {
+    margin-top: 20px;
+    color: #808080;
+    font-size: 12px;
+}
+
+.contact-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+
+
